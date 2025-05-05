@@ -1,3 +1,1 @@
-echo "Pre-commit hook запущен!" 
-
 npx lint-staged || echo "Ошибка: код не соответствует стандартам!"
